@@ -46,3 +46,16 @@ NOTEBOOK: GIT COURSE
                 -> git reset --soft <lognumber>: resets a commit, but it's still in the stage area, it's ready to commit again
                 -> git reset --mixed <lognumber>: resets a commit, and removes the file from the stage area (it's now modified)
                 -> git reset --hard <lognumber>: resets a commit and all the changes made before you added it (careful with this one)
+
+        SECTION 4: Git Branches
+
+            -> git push origin main: pushes the fixed branch origin to the remote branch main
+
+            -> g clone <sshaddres> <name>: clones the remote repository with address "sshaddres" to a repository "name"
+
+            -> git branch: show all the branches and which one you are in at the moment
+                -> git branch -D <branchname>: deletes the branch named "branchname"
+
+            -> git checkout -b <branchname>: create another branch named "branchname" and switches to it
+
+            -> git checkout <branchname>: just switches to the branch named "branchname"
